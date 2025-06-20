@@ -106,7 +106,7 @@ const sampleDescriptions = [
   'Miros proaspăt de dimineață de vară.',
   'Parfum senzual pentru serile speciale.',
   'Arome romantice de trandafir și iasomie.',
-  'Compoziție echilibrată cu note gurmande.',
+  'Compoziție echilibrată cu note gurmande.', // mi-era sila sa stau sa caut aici alea de le scrie pe site si nu invat web scraping in seara asta te am pupat gigi
 ]
 
 for (let i = 1; i <= 100; i++) {
