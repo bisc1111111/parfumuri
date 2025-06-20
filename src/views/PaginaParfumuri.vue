@@ -88,6 +88,7 @@ import PerfumeDetailsModal from '@/components/PerfumeDetailsModal.vue'
 import { useCartStore } from '@/stores/cartStore'
 import { useFlyToCart } from '@/composables/useFlyToCart.js'
 import { cartIconRef } from '@/stores/cartIconRef.js'
+import { useRoute } from 'vue-router'
 
 const cart = useCartStore()
 const { fly } = useFlyToCart()
@@ -197,6 +198,7 @@ function showDetails(product) {
     transform 0.3s ease,
     box-shadow 0.3s ease;
   height: 100%;
+
   cursor: pointer;
   perspective: 1000px;
 }
@@ -222,6 +224,7 @@ function showDetails(product) {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 380px;
 }
 .promo-badge {
   position: absolute;

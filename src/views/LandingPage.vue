@@ -96,7 +96,7 @@ const testimonials = [
 const router = useRouter()
 
 function goToCategory(category) {
-  router.push({ name: 'PerfumeList', query: { type: category } })
+  router.push({ path: '/parfumuri', query: { type: category } })
 }
 </script>
 
